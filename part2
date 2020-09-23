@@ -1,0 +1,17 @@
+Console.WriteLine("Activity #4 Part-2 (Use do while loop)");
+		Console.WriteLine("+++++RESULT+++++");
+		int loop = 1;
+		int first = 2;
+		int second = 20;
+		int third = 5;
+		int fourth = 1000;
+		do{
+			Console.WriteLine(first+", "+second+", "+third+", "+fourth);
+			loop++;
+			first*=2;
+			second-=2;
+			third*=3;
+			fourth/=2;
+		}while(loop<=10);
+		Console.WriteLine("+++++END+++++");
+		Console.ReadLine();
