@@ -1,0 +1,16 @@
+Console.WriteLine("Activity #4 Part-1(Use while loop)");
+Console.Write("Enter starting number: ");
+int s_num = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter increment number: ");
+int i_num = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter loop times: ");
+int loop_times = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("+++++RESULT+++++");
+int loop = 1;
+while (loop <= loop_times) {
+	Console.WriteLine("Loop " + loop + ": " + s_num);
+	s_num += i_num;
+	loop++;
+};
+Console.WriteLine("+++++END+++++");
+Console.ReadLine();
